@@ -1,7 +1,13 @@
-# HTTParty | Cucumber
+[![Badge ServeRest](https://img.shields.io/badge/API-ServeRest-green)](https://github.com/ServeRest/ServeRest/)
 
-Repositório da Postagem do Medium sobre HTTParty
-Link postagem: [Automação de Testes com HTTParty e Cucumber](https://medium.com/@rafaelberam/automa%C3%A7%C3%A3o-de-testes-api-com-httparty-e-cucumber-bdd-d955749affa8)
+# Descrição do projeto
+- Este projeto tem como finalidade o estudo de automação de testes de API(Back) de consulta.
+- Projeto desenvolvido com as seguintes ferramentas.
+--> Ruby
+--> Cucumber
+--> Httparty
+
+# <img width="806" alt="image" src="https://github.com/user-attachments/assets/2893872d-5bdb-4a2d-a3b4-0bce4da1d11c">
 
 ## Bundler
 Instale o Bundler:
