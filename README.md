@@ -1,37 +1,30 @@
-# Projeto simples em HTTParty
+[![Badge ServeRest](https://img.shields.io/badge/API-ServeRest-green)](https://github.com/ServeRest/ServeRest/)
 
-Projeto criado com a intenção de guardar uma arquitetura simplificada de httparty
+# Descrição do projeto
+- Este projeto tem como finalidade o estudo de automação de testes de API(Back) de consulta.
+- Projeto desenvolvido com as seguintes ferramentas.
+--> Ruby
+--> Cucumber
+--> Httparty
 
-### Prerequisites
+# <img width="806" alt="image" src="https://github.com/user-attachments/assets/2893872d-5bdb-4a2d-a3b4-0bce4da1d11c">
 
-Independente do OS utilizado
+## Bundler
+Instale o Bundler:
 
-```
-Ruby 2.6
-Gems httparty, rspec e faker
-```
-
-### Installing
-
-Instale a versão 2.6 do Ruby e execute no terminal:
-
-```
-gem install bundle
+```ruby
+$ gem install bundler
 ```
 
-Após a gem bundle instalada, navegue até a pasta raiz do projeto e execute
+## Projeto
 
+>Faça o Clone do projeto
+>Execute o comando  para instalar as dependências
+```ruby
+$ bundle install
 ```
-bundle install
-```
+>Rode o projeto usando o comando
 
-## Running the tests
-
-Para rodar toda a suíte de testes, execute o comando :
-```
-rspec
-```
-Para rodar algum caso específico por tag, execute:
-```
-rspec --t nometag
+```ruby
+$ cucumber
 ```
